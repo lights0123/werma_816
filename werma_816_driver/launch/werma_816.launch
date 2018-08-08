@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="werma_816_driver" type="werma_816_driver" name="werma_816_driver" output="screen">
+    <param name="port" value="/dev/ttyACM0" />
+    <param name="baud" value="9600" />
+  </node>
+</launch>
