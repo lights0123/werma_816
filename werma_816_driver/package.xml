@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>werma_816_driver</name>
+  <version>0.0.0</version>
+  <description>The werma_816 package</description>
+
+  <maintainer email="developer@lights0123.com">Ben Schattinger</maintainer>
+
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/lights0123/werma_816.git</url>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>serial</build_depend>
+  <build_depend>werma_816_msgs</build_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>serial</exec_depend>
+  <exec_depend>werma_816_msgs</exec_depend>
+
+
+  <export>
+  </export>
+</package>
