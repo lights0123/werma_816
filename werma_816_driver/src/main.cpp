@@ -102,7 +102,6 @@ int main(int argc, char **argv) {
 		led.connect(port, baud);
 		if (led.connected) {
 			ROS_DEBUG("Connected!");
-			led.setColor(0, 255, 120);
 			ros::spin();
 		} else {
 			ROS_DEBUG("Problem connecting to serial device.");
